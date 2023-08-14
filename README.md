@@ -78,7 +78,7 @@ To demonstrate how to use the application, we have included a couple of examples
 
 The first example assesses the impact of covariate on PK based on the user-uploaded or user-defined data. 
 
-<img src="1.gif">
+<img src="Figures/1.gif">
 
 **Description of Example 1:** 
  
@@ -94,7 +94,7 @@ The first example assesses the impact of covariate on PK based on the user-uploa
 
 The second example assesses the impact of covariate on PK based on the app-generated data.
 
-<img src="2.gif">
+<img src="Figures/2.gif">
 
 **Description of Example 2:** 
 
@@ -110,7 +110,7 @@ The second example assesses the impact of covariate on PK based on the app-gener
 
 The third example assesses the impact of dose delay on PK based on user-uploaded or user-defined data.
 
-<img src="3.gif">
+<img src="Figures/3.gif">
 
 **Description of Example 3:** 
 
@@ -127,7 +127,7 @@ The third example assesses the impact of dose delay on PK based on user-uploaded
 The fourth example performs individual simulations based on post-hoc parameters, individual dosing log and the actual sampling time points.
 
 
-<img src="4.gif">
+<img src="Figures/4.gif">
 
 **Description of Example 4:** 
 
