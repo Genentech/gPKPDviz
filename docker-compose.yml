@@ -1,0 +1,8 @@
+version: '2.6'
+services:
+  gpkpdviz:
+    build: ./gpkpdviz
+    restart: unless-stopped
+    ports:
+      - "3838:3838"
+  
