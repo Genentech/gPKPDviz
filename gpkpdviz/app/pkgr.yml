@@ -78,3 +78,5 @@ Repos:
       
 Lockfile:
     Type: packrat
+    
+Rpath: ${R_EXE_4_0}
