@@ -18,7 +18,7 @@ Web Version - https://cpmns-shiny.shinyapps.io/gPKPDviz/
 To get started using the tool, please clone the code to your local machine using standard Git clone command: 
 
 ```
-git clone https://code.roche.com/velasqe2/cp-pkpd-sim-app.git
+git clone https://github.com/Genentech/gPKPDviz.git
 
 ```
 
