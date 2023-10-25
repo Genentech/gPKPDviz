@@ -39,7 +39,7 @@ model_complete_modal <- function(rV, startSelected, timeStartSelected){
                      selectizeInput(
                        inputId = "model_time", 
                        label = "Model Time Unit", 
-                       choices = c("hour", "day"),
+                       choices = c("hour", "day", "week"),
                        selected = timeStartSelected,
                        width = "100%"
                      )
