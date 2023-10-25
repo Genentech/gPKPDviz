@@ -1,0 +1,518 @@
+PackratFormat: 1.4
+PackratVersion: 0.6.0
+RVersion: 4.0.3
+Repos: MPN=https://mpn.metworx.com/snapshots/stable/2020-12-21,
+    CRAN=https://cran.rstudio.com
+
+Package: BH
+Source: MPN
+Version: 1.75.0-0
+Hash: 8426697ec75df1ac7b9bc664741f383a
+
+Package: DT
+Source: MPN
+Version: 0.18
+Hash: 29936e2ae618b3e662f1130d8623ee69
+Requires: crosstalk, htmltools, jsonlite, magrittr, htmlwidgets,
+    promises
+
+Package: MASS
+Source: MPN
+Version: 7.3-54
+Hash: 6e22c69d9dc2dbc77dcea14977b7f0a6
+
+Package: Matrix
+Source: MPN
+Version: 1.3-3
+Hash: a9ce50fb1b8eb66caed13145114a6fb7
+Requires: lattice
+
+Package: PKPDmisc
+Source: MPN
+Version: 3.0.0
+Hash: 733658d808b7bf0b29a0ed2d7f27a6bd
+Requires: BH, Rcpp, data.table, dplyr, ggplot2, lazyeval, magrittr,
+    purrr, rlang, tibble, readr, stringr
+
+Package: R6
+Source: MPN
+Version: 2.5.0
+Hash: 25ebbd2664a276c915984da5c820c404
+
+Package: RColorBrewer
+Source: MPN
+Version: 1.1-2
+Hash: c0d56cd15034f395874c870141870c25
+
+Package: Rcpp
+Source: MPN
+Version: 1.0.6
+Hash: d891b607ea796cf30abfe4795380423f
+
+Package: RcppArmadillo
+Source: MPN
+Version: 0.10.4.0.0
+Hash: 257e46530049f927b9fbbd5087176b55
+Requires: Rcpp
+
+Package: assertthat
+Source: MPN
+Version: 0.2.1
+Hash: 622be49032fe50bd42e96aaef613e209
+
+Package: base64enc
+Source: MPN
+Version: 0.1-3
+Hash: c590d29e555926af053055e23ee79efb
+
+Package: bindr
+Source: MPN
+Version: 0.1.1
+Hash: 76578c5f543a6ecbc1365d6445f9ebf7
+
+Package: bindrcpp
+Source: MPN
+Version: 0.2.2
+Hash: c19030b14ecf383aad58c163a8ae2c63
+Requires: bindr, Rcpp, plogr
+
+Package: bslib
+Source: MPN
+Version: 0.2.5
+Hash: 53b2844a7e07de7b7e8153040fec74ed
+Requires: digest, htmltools, jquerylib, jsonlite, magrittr, rlang, sass
+
+Package: cachem
+Source: MPN
+Version: 1.0.5
+Hash: 7ade2ba1d62898c85dc5b677b2c1dc4a
+Requires: rlang, fastmap
+
+Package: cli
+Source: MPN
+Version: 2.5.0
+Hash: f4afb5d894854c102b267975d45e380c
+Requires: glue
+
+Package: clipr
+Source: MPN
+Version: 0.7.1
+Hash: 50bca21c0c36d24984b051077cb15cf3
+
+Package: colorspace
+Source: MPN
+Version: 2.0-1
+Hash: 69545b65fbad1f346da262f7f6d266fe
+
+Package: commonmark
+Source: MPN
+Version: 1.7
+Hash: 77f4ba718e2bad1877ef26e48cf8fa43
+
+Package: corpcor
+Source: MPN
+Version: 1.6.9
+Hash: f641167f85158bfc7cd4b97ac1c26701
+
+Package: cpp11
+Source: MPN
+Version: 0.2.7
+Hash: 872459b771164e51ce5ac17ade5f0344
+
+Package: crayon
+Source: MPN
+Version: 1.4.1
+Hash: 2e1b6e4b4bc63ebe2aaee1546b871329
+
+Package: crosstalk
+Source: MPN
+Version: 1.1.1
+Hash: 40844571ab8c7b3009cde6e49a1ace16
+Requires: R6, htmltools, jsonlite, lazyeval
+
+Package: data.table
+Source: MPN
+Version: 1.14.0
+Hash: f606b167539da14e861ff5e145b04525
+
+Package: digest
+Source: MPN
+Version: 0.6.27
+Hash: 8ba156629c1537635b39332c93d8ed33
+
+Package: dmutate
+Source: MPN
+Version: 0.1.3
+Hash: ad05150a8b98ea8768cd3cc303e36c64
+Requires: MASS, dplyr
+
+Package: dplyr
+Source: MPN
+Version: 1.0.6
+Hash: da3b72d851a648c4994f40459d06ef23
+Requires: R6, glue, magrittr, rlang, ellipsis, generics, lifecycle,
+    pillar, tibble, tidyselect, vctrs
+
+Package: ellipsis
+Source: MPN
+Version: 0.3.2
+Hash: b21bfc48556c0c6a93fc9ede6c00cfaf
+Requires: rlang
+
+Package: fansi
+Source: MPN
+Version: 0.4.2
+Hash: 46ab61226bcca6890ad4864250f62a0e
+
+Package: farver
+Source: MPN
+Version: 2.1.0
+Hash: a001f1816f74d0e76e82171eef764a9d
+
+Package: fastmap
+Source: MPN
+Version: 1.1.0
+Hash: e4d212b14d40b91c791c0b9d3b6ffd99
+
+Package: forcats
+Source: MPN
+Version: 0.5.1
+Hash: d95e6deaed2fcb1f74a7764f42524fc2
+Requires: ellipsis, magrittr, rlang, tibble
+
+Package: fs
+Source: MPN
+Version: 1.5.0
+Hash: 918ea5c88cad73d5d5b529ca98f8ad11
+
+Package: generics
+Source: MPN
+Version: 0.1.0
+Hash: c265031f21f6435ffaa9633eb64c3095
+
+Package: ggplot2
+Source: MPN
+Version: 3.3.3
+Hash: fcae8a1c452b7bf7e5b11d1d438c825e
+Requires: MASS, digest, glue, rlang, tibble, gtable, isoband, mgcv,
+    scales, withr
+
+Package: glue
+Source: MPN
+Version: 1.4.2
+Hash: afa798ba9deec3676e20300b79094749
+
+Package: gmm
+Source: MPN
+Version: 1.6-6
+Hash: 577a229f82d4a2ac6d692b2d3c846e94
+Requires: sandwich
+
+Package: gtable
+Source: MPN
+Version: 0.3.0
+Hash: a9e7b0666eb933a0cb36779240b4462e
+
+Package: hms
+Source: MPN
+Version: 1.0.0
+Hash: 045f4f0c5af5611f42b19cfd492dd78d
+Requires: ellipsis, lifecycle, pkgconfig, rlang, vctrs
+
+Package: htmltools
+Source: MPN
+Version: 0.5.1.1
+Hash: 297e3b95a781d9a6fb7259e0f6824020
+Requires: base64enc, digest, rlang
+
+Package: htmlwidgets
+Source: MPN
+Version: 1.5.3
+Hash: 6405f8f000f8a52e0dc2f034b3693fe5
+Requires: htmltools, jsonlite, yaml
+
+Package: httpuv
+Source: MPN
+Version: 1.6.1
+Hash: f6544986815865f945ef7308aecdebe3
+Requires: R6, Rcpp, later, promises
+
+Package: isoband
+Source: MPN
+Version: 0.2.4
+Hash: b1e8c5547c2e0b0b45f375da77325ed2
+
+Package: jquerylib
+Source: MPN
+Version: 0.1.4
+Hash: 338eb4374296b76bdee1e463c810113d
+Requires: htmltools
+
+Package: jsonlite
+Source: MPN
+Version: 1.7.2
+Hash: a5965fb563ba3643e75c425a82f935e6
+
+Package: labeling
+Source: MPN
+Version: 0.4.2
+Hash: 7474c78957f4e01d1dd4c04217eab244
+
+Package: later
+Source: MPN
+Version: 1.2.0
+Hash: f0643bd220035619f3743aaed7c3b2c9
+Requires: Rcpp, rlang
+
+Package: lattice
+Source: MPN
+Version: 0.20-44
+Hash: 1de9d2e96f685f9b83f087234d85273d
+
+Package: lazyeval
+Source: MPN
+Version: 0.2.2
+Hash: 563563691bea3cde6945a98996d7c166
+
+Package: lifecycle
+Source: MPN
+Version: 1.0.0
+Hash: 0c18dc7a4e21abdc8132b7cac2b5fcb4
+Requires: glue, rlang
+
+Package: magrittr
+Source: MPN
+Version: 2.0.1
+Hash: d3c166b0573ae8c918edf7221dfe7380
+
+Package: matrixcalc
+Source: MPN
+Version: 1.0-3
+Hash: 76aa5d5eab055fd15fa9b622a47e99bd
+
+Package: mgcv
+Source: MPN
+Version: 1.8-35
+Hash: c4375d1163f9e01505cca4e553c29038
+Requires: Matrix, nlme
+
+Package: mime
+Source: MPN
+Version: 0.10
+Hash: 20b0f90f3478d2baae76be49777ac9fe
+
+Package: mrgsolve
+Source: MPN
+Version: 0.11.1
+Hash: 7dac413db20d699ff09d279d7d57817f
+Requires: BH, Rcpp, dplyr, glue, lifecycle, magrittr, rlang, tibble,
+    tidyselect, RcppArmadillo
+
+Package: munsell
+Source: MPN
+Version: 0.5.0
+Hash: 38d0efee9bb99bef143bde41c4ce715c
+Requires: colorspace
+
+Package: mvtnorm
+Source: MPN
+Version: 1.1-1
+Hash: 6e13acde49757399332c2950318c78dc
+
+Package: nlme
+Source: MPN
+Version: 3.1-152
+Hash: 3761e6e8818069c15c0d04deef664201
+Requires: lattice
+
+Package: packrat
+Source: MPN
+Version: 0.6.0
+Hash: 62fd532b7524f498caa3cf4cc5f15490
+
+Package: pillar
+Source: MPN
+Version: 1.6.1
+Hash: a32895ba270cc966f841a55296b275e5
+Requires: cli, crayon, ellipsis, lifecycle, rlang, fansi, utf8, vctrs
+
+Package: pkgconfig
+Source: MPN
+Version: 2.0.3
+Hash: 5ff5f2361851a49534c96caa2a8071c7
+
+Package: plogr
+Source: MPN
+Version: 0.2.0
+Hash: 81a8008a5e7858552503935f1abe48aa
+
+Package: plyr
+Source: MPN
+Version: 1.8.6
+Hash: d4a3096ec14fbdbf50caeaf27f4e4711
+Requires: Rcpp
+
+Package: promises
+Source: MPN
+Version: 1.2.0.1
+Hash: b999731b91ddfd9b4f8fef55460f3c73
+Requires: R6, Rcpp, magrittr, rlang, later
+
+Package: purrr
+Source: MPN
+Version: 0.3.4
+Hash: fb4c0edca61826ca0b5b33c828a7b276
+Requires: magrittr, rlang
+
+Package: rappdirs
+Source: MPN
+Version: 0.3.3
+Hash: fd602edfd7dbf365642e35dd9cc97958
+
+Package: readr
+Source: MPN
+Version: 1.4.0
+Hash: caf2f562ac337a43fa6af046d1f8d69c
+Requires: BH, R6, cli, clipr, cpp11, crayon, hms, lifecycle, rlang,
+    tibble
+
+Package: reshape2
+Source: MPN
+Version: 1.4.4
+Hash: 6a620d1e53840ce96aa465a656f8e931
+Requires: Rcpp, plyr, stringr
+
+Package: rhandsontable
+Source: MPN
+Version: 0.3.7
+Hash: 684b6e2edd72ff7ed37b8ba1461b44b5
+Requires: htmlwidgets, jsonlite, magrittr
+
+Package: rlang
+Source: MPN
+Version: 0.4.11
+Hash: 765f56f2e0697cfd1ad4c9d34e4efedc
+
+Package: sandwich
+Source: MPN
+Version: 3.0-0
+Hash: 91db49b94b7439c7caad630baa1121ca
+Requires: zoo
+
+Package: sass
+Source: MPN
+Version: 0.4.0
+Hash: 898260598d59907eda6f28dfec65473c
+Requires: htmltools, rlang, R6, fs, rappdirs
+
+Package: scales
+Source: MPN
+Version: 1.1.1
+Hash: b67ae9f62ecb8912751eb664055d8f8a
+Requires: R6, farver, lifecycle, RColorBrewer, labeling, munsell,
+    viridisLite
+
+Package: shiny
+Source: MPN
+Version: 1.6.0
+Hash: 35e21ce401cc3b1fae93a190b32f6a65
+Requires: R6, bslib, cachem, commonmark, crayon, digest, ellipsis,
+    fastmap, glue, htmltools, httpuv, jsonlite, later, lifecycle, mime,
+    promises, rlang, withr, sourcetools, xtable
+
+Package: shinyAce
+Source: MPN
+Version: 0.4.1
+Hash: 75d6f62c39346eb2ffef090f36e11fac
+Requires: jsonlite, shiny
+
+Package: shinycssloaders
+Source: MPN
+Version: 1.0.0
+Hash: 070a4e77bed58f74dfea27cb93089a94
+Requires: digest, glue, shiny
+
+Package: shinydashboard
+Source: MPN
+Version: 0.7.1
+Hash: 9ff3e3d1aa83d9ae9b75c6f31e982aa6
+Requires: htmltools, promises, shiny
+
+Package: sourcetools
+Source: MPN
+Version: 0.1.7
+Hash: d093478ac90064e670cd4bf1a99b47b6
+
+Package: stringi
+Source: MPN
+Version: 1.6.1
+Hash: a844a97d217c6c72f38b703fec93ccec
+
+Package: stringr
+Source: MPN
+Version: 1.4.0
+Hash: 67da32dbb2a7a16f2ef124336358e54a
+Requires: glue, magrittr, stringi
+
+Package: tibble
+Source: MPN
+Version: 3.1.2
+Hash: 83c55123413a6b6d3e777fba5ae667a3
+Requires: ellipsis, fansi, lifecycle, magrittr, pillar, rlang, vctrs,
+    pkgconfig
+
+Package: tidyr
+Source: MPN
+Version: 1.1.3
+Hash: 11fb4ddfd4ecf97b12500a46945cf2f1
+Requires: cpp11, dplyr, ellipsis, glue, lifecycle, magrittr, purrr,
+    rlang, tibble, tidyselect, vctrs
+
+Package: tidyselect
+Source: MPN
+Version: 1.1.1
+Hash: 6415fa4c6b3b5417aa4d3381845d654c
+Requires: ellipsis, glue, rlang, vctrs, purrr
+
+Package: tmvtnorm
+Source: MPN
+Version: 1.4-10
+Hash: 669bffc2fc3b18a83a2f795a51cd813a
+Requires: Matrix, gmm, mvtnorm
+
+Package: utf8
+Source: MPN
+Version: 1.2.1
+Hash: 4ae5f77d617721b66be32d2b47bc9148
+
+Package: vctrs
+Source: MPN
+Version: 0.3.8
+Hash: e2e7a28fd30d8df018965c923afd1195
+Requires: ellipsis, glue, rlang
+
+Package: viridisLite
+Source: MPN
+Version: 0.4.0
+Hash: aeccc8c24d26192f4043be0c69151b96
+
+Package: withr
+Source: MPN
+Version: 2.4.2
+Hash: 56366c768cead0b9b2b773cf9f16a432
+
+Package: xtable
+Source: MPN
+Version: 1.8-4
+Hash: dc0d47261b678d26032363bebd050540
+
+Package: yaml
+Source: MPN
+Version: 2.2.1
+Hash: 424bc11cc358f23187feaa7978628196
+
+Package: zoo
+Source: MPN
+Version: 1.8-9
+Hash: a157221cf26e87baa6b008442de46011
+Requires: lattice

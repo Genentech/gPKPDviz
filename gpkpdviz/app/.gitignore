@@ -1,0 +1,7 @@
+packrat/lib*/
+packrat/bundles*/
+# Ignore everything in packrat/src other than the packrat tarball
+packrat/src/*
+!packrat/src/packrat/
+packrat/src/packrat/*
+!packrat/src/packrat/packrat_0.6.0.tar.gz

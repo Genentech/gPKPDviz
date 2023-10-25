@@ -5,15 +5,15 @@ options(
   )
 )
 
+#### -- Packrat Autoloader (version 0.6.0) -- ####
+source("packrat/init.R")
+#### -- End Packrat Autoloader -- ####
+
 if (interactive()) {
   message("repos set to: \n\t", paste0(unique(getOption('repos')), collapse = "\n\t"))
   message("library paths set to: \n\t", paste0(.libPaths(), collapse = "\n\t"))
   
 }
-
-#### -- Packrat Autoloader (version 0.6.0) -- ####
-source("packrat/init.R")
-#### -- End Packrat Autoloader -- ####
 
 options(shiny.fullstacktrace = TRUE)
 
