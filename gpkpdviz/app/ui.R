@@ -1187,7 +1187,7 @@ dashboardPage(skin = "blue",
                                                       "Month" = "month")
                                         ),
                                         selectInput(
-                                          inputId = "simulationsPlotDataVar",
+                                          inputId = "simulationsPlotDataVar", # add vars here
                                           label = "Variable(s) (Y-Axis)",
                                           choices = NULL,
                                           selected = NULL,
@@ -1256,7 +1256,7 @@ dashboardPage(skin = "blue",
                                           column(
                                             width = 3,
                                             checkboxGroupInput(
-                                              inputId = "summaryStatsPlotDataSummarize",
+                                              inputId = "summaryStatsPlotDataSummarize", # change var here
                                               label = "Summarize by",
                                               choices = NULL#,
                                               # selected = NULL,
