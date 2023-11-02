@@ -751,7 +751,7 @@ dashboardPage(skin = "blue",
                                       selectInput(
                                         inputId = "user_sample_times_unit",
                                         label = "In",
-                                        choices = c("hours" = "hour", "days" = "day")
+                                        choices = c("hours" = "hour", "days" = "day", "weeks" = "week")
                                       )
                                     )
                                   )

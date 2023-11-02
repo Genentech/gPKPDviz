@@ -59,7 +59,12 @@ genpk_sim <- function(rV, input){
     samples_times_to_model_times_conversion <- case_when(
       input$model_time == input$user_sample_times_unit ~ 1,
       input$model_time == "hour" & input$user_sample_times_unit == "day" ~ 24,
+      # input$model_time == "hour" & input$user_sample_times_unit == "week" ~ ,
       input$model_time == "day" & input$user_sample_times_unit == "hour" ~ (1/24),
+      # input$model_time == "day" & input$user_sample_times_unit == "week" ~ (1/24),
+      
+      # input$model_time == "week" & input$user_sample_times_unit == "hour" ~ (1/24),
+      # input$model_time == "week" & input$user_sample_times_unit == "day" ~ (1/24),
       TRUE ~ 0
     )
     

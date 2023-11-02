@@ -35,6 +35,10 @@ calc_n_doses_summary <- function(n_doses_data, model_time, cmt_choices, IDs_Simu
     max_dose_time_1 <- ceiling(max_dose_time_1 / 24)
   }
   
+  # if(model_time == "week"){
+  #   max_dose_time_1 <- ceiling(max_dose_time_1 / 24)
+  # }
+  
   # Add one since time starts at zero
   max_dose_time_1 <- max_dose_time_1 + 1
   
