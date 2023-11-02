@@ -221,12 +221,14 @@ genpk_sim <- function(rV, input){
   to_day <- case_when(
     input$model_time == "hour"~ 24,
     input$model_time == "day"~ 1,
+    # input$model_time == "week"~ ,
     TRUE ~ 0
   )
   
   to_hour <- case_when(
     input$model_time == "hour"~ 1,
     input$model_time == "day"~ 1 / 24,
+    # input$model_time == "week"~ ,
     TRUE ~ 0
   )
   
