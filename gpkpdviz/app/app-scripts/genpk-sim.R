@@ -132,6 +132,9 @@ genpk_sim <- function(rV, input){
            obsonly = genpk_obsonly,
            recsort = genpk_recsort,
            carry.out=genpk_carry.out,
+           # rtol = 
+           # hmax = 
+           # maxsteps = 
            atol = as.numeric(paste0("1E-", input$aTolValue))) %>% 
     tibble::as_tibble() %>% 
     mutate(
