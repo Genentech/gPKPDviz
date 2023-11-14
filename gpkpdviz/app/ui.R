@@ -773,6 +773,17 @@ dashboardPage(skin = "blue",
                                         "PRED Simulation (No random effects or residual error)",
                                         value = FALSE
                                       )
+                                    ),
+                                    column(
+                                      width = 6,
+                                      sliderInput(
+                                        "maxstepsValue",
+                                        "Maximum Number of Steps (thousands)",
+                                        min = 10,
+                                        max = 80,
+                                        step = 5,
+                                        value = 20
+                                      )
                                     )
                                   ),
                                   fluidRow(
@@ -781,12 +792,33 @@ dashboardPage(skin = "blue",
                                       sliderInput(
                                         "aTolValue",
                                         "Absolute Solver Tolerance Value (1e-'Value')",
-                                        min = 1,
+                                        min = 5,
                                         max = 50,
                                         step = 1,
-                                        value = 30
+                                        value = 8
+                                      )
+                                    ),
+                                    column(
+                                      width = 6,
+                                      sliderInput(
+                                        "rTolValue",
+                                        "Relative Solver Tolerance Value (1e-'Value')",
+                                        min = 2,
+                                        max = 16,
+                                        step = 1,
+                                        value = 8
                                       )
                                     )
+                                  ),
+                                fluidRow(
+                                  column(
+                                    width = 6,
+                                    textInput(
+                                      "hmaxValue",
+                                      "Maximum Step Size (leave blank for default)",
+                                      value = ""
+                                    )
+                                  )
                                   )
                                 )
                               )

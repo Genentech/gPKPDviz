@@ -5,6 +5,12 @@ plot_ui_choices <- function(rV){
   # Y-Axis Variable ---------------------------------------------------------
   plotDataVarChoices <- rV$modelList$capture
   names(plotDataVarChoices) <- paste(plotDataVarChoices, "(Model Capture)")
+  
+  plotDataVarChoicesCmt <- rV$modelList$cmt
+  names(plotDataVarChoicesCmt) <- paste(plotDataVarChoicesCmt, "(Model Compartment)")
+  
+  plotDataVarChoices <- c(plotDataVarChoices, plotDataVarChoicesCmt)
+  
   plotDataVarSelected <- plotDataVarChoices
   
   ans$plotDataVarChoices <- plotDataVarChoices

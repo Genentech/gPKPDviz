@@ -124,6 +124,22 @@ genpk_sim <- function(rV, input){
     ) %>% 
     sort_and_fill_covars(x = .)
   
+  
+  hmax_use <- 
+  if (nchar(input$hmaxValue) > 0) {
+    as.numeric(input$hmaxValue)
+  } else {
+    0
+  }
+  
+  if (is.na(hmax_use)) { 
+    stop("Maximum Step Size Must Numeric")
+  }
+  
+  if (hmax_use < 0) {
+    stop("Maximum Step Size Must Be > 0")
+  }
+  
   mrgSimulationsBuild <-
     modelBuildRun %>%
     mrgsim(data=simulation_data_expanded, 
@@ -131,7 +147,10 @@ genpk_sim <- function(rV, input){
            # add = sim_times,
            obsonly = genpk_obsonly,
            recsort = genpk_recsort,
-           carry.out=genpk_carry.out,
+           carry_out = genpk_carry.out,
+           hmax = hmax_use,
+           maxsteps = as.numeric(input$maxstepsValue) * 1000,
+           rtol = as.numeric(paste0("1E-", input$rTolValue)),
            atol = as.numeric(paste0("1E-", input$aTolValue))) %>% 
     tibble::as_tibble() %>% 
     mutate(
