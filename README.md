@@ -51,8 +51,9 @@ docker-compose -f docker-compose.yml --project-name gpkpdviz-app up -d --build
 
 ```
 
-This should initiate the app building/rendering process which depending on the speed of the system could take ~30min. Once the app has been built, you can launch the application under a new container using docker desktop.
+This should initiate the app building/rendering process which depending on the speed of the system could take ~30min (snapshot of this process shown below) . Once the app has been built, you can launch the application under a new container using docker desktop.
 
+![image](https://github.com/Genentech/gPKPDviz/assets/34016529/5ed5b587-863b-45a6-aaea-1b1265be1ae7)
 
 Once running, using your preferred browser (we recommend chrome) navigate to:
 
