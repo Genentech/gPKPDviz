@@ -9,7 +9,7 @@ Packaged in an easy-to-use R-Shiny interface, gPKPDviz is capable of simulating 
 
 ## Getting Started
 
-The user has the option of using a local or web version of the application. If running a large amount of simulations we recommend setting up a local version (shown as below stp-by-step) since this will allow for better performance. However, if interested in familiriazing yourself with the tool feel free to use the web version without having to install the local version. For best performance, we recommend deploying gPKPDviz on a robust shiny server to allocate ample session memory. 
+The user has the option of using a local or web version of the application. If running a large amount of simulations we recommend setting up a local version (shown as below step-by-step) since this will allow for better performance. However, if interested in familiriazing yourself with the tool feel free to use the web version without having to install the local version. For best performance, we recommend deploying gPKPDviz on a robust shiny server to allocate ample session memory. 
 
 Web Version - https://cpmns-shiny.shinyapps.io/gPKPDviz/
 
