@@ -76,6 +76,8 @@ http://localhost:3838/
 
 To demonstrate how to use the application, we have included a couple of use case examples that can help the user get started. All the demonstrations are based on the PK simulation of Perjeta (Pertuzumab), which is a monoclonal antibody for the treatment of HER2-positive metastatic breast cancer. The relevant models and data used in the examples can be found in the supplementary file of the tutorial in CPT-PST (link will be available once the tutorial is published) The model for perjeta popPK simulation can also be found in the model library (PKcase_Perjeta_valid.cpp).  
 
+The demonstrations might based on a slightly older version than the published one, but the key steps stay the same.
+
 ### Example 1: Covariate Impact Based on User-Provided Data
 
 The first example assesses the impact of covariate on PK based on the user-uploaded or user-defined data. 
