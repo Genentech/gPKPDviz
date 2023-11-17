@@ -3,13 +3,13 @@
 
 ## Mission
 
-gPKPDviz is a dedicated R Shiny application (app) for real-time simulation, visualization, and assessment of  Pharmacokinetic/Pharmacodynamic (PK/PD) models, with mrgsolve as the simulation engine.
+gPKPDviz is a dedicated R Shiny application (app) for real-time simulation, visualization, and assessment of Pharmacokinetic/Pharmacodynamic (PK/PD) models, with mrgsolve as the simulation engine.
 
-Packaged in an easy-to-use R-Shiny interface, gPKPDviz generates a virtual population with complex dosing & sampling scenarios, which is designed to effectively assess the impact of covariates and dosing regimens on PK/PD endpoints.
+Packaged in an easy-to-use R-Shiny interface, gPKPDviz is capable of simulating virtual populations and complex dosing and sampling schedules within the app, and when needed, it can also load external datasets to take on whatever complexities for covariate, dosing, and sampling schedules.
 
 ## Getting Started
 
-The user has the option of using a local or web version of the application. If running a large amount of simulations we recommend setting up a local version since this will allow for best performance of the application. However, if interested in familiriazing yourself with the tool feel free to use the web version without having to install the local version. 
+The user has the option of using a local or web version of the application. If running a large amount of simulations we recommend setting up a local version (shown as below stp-by-step) since this will allow for better performance. However, if interested in familiriazing yourself with the tool feel free to use the web version without having to install the local version. For best performance, we recommend deploying gPKPDviz on a robust shiny server to allocate ample session memory. 
 
 Web Version - https://cpmns-shiny.shinyapps.io/gPKPDviz/
 
