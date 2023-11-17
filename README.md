@@ -7,7 +7,7 @@ gPKPDviz is a dedicated R Shiny application (app) for real-time simulation, visu
 
 Packaged in an easy-to-use R-Shiny interface, gPKPDviz is capable of simulating virtual populations and complex dosing and sampling schedules within the app, and when needed, it can also load external datasets to take on whatever complexities for covariate, dosing, and sampling schedules.
 
-As an open-source platform, we offer a selection of basic model templates including one, two, three compartment popPK model with covariates and the indirect response model, and some publicly available models including popPK models (pertuzumab [Perjeta] and polatuzumab) and PK/PD model (Neutropenia model for Paclitaxel). The mrgsolve code that showcases the ODE-based derivation of AUC, Cmax (Tmax), Cmin (Tmin) after each dose, and Time-above-Threshold is also included using the Perjeta popPK model as example.
+As an open-source platform, we offer a selection of basic model templates including one, two, three compartment popPK model with covariates and the indirect response model, and some publicly available models including popPK models (pertuzumab [Perjeta] and polatuzumab) and PK/PD model (Neutropenia model for Paclitaxel).
 
 ## Getting Started
 
