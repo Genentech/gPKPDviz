@@ -3,7 +3,7 @@
 
 ## Mission
 
-gPKPDviz is a dedicated R Shiny application (app) for real-time simulation, visualization, and assessment of Pharmacokinetic/Pharmacodynamic (PK/PD) models, with mrgsolve as the simulation engine.
+gPKPDviz is a dedicated R Shiny application (app) for real-time simulation, visualization, and assessment of Pharmacokinetic/Pharmacodynamic (PK/PD) models, with mrgsolve as the simulation engine. It is published in CPT-PSP as tutorial https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.13096 
 
 Packaged in an easy-to-use R-Shiny interface, gPKPDviz is capable of simulating virtual populations and complex dosing and sampling schedules within the app, and when needed, it can also load external datasets to take on whatever complexities for covariate, dosing, and sampling schedules.
 
@@ -75,7 +75,7 @@ http://localhost:3838/
 
 ## Use Case Examples
 
-To demonstrate how to use the application, we have included a couple of use case examples that can help the user get started. All the demonstrations are based on the PK simulation of Perjeta (Pertuzumab), which is a monoclonal antibody for the treatment of HER2-positive metastatic breast cancer. The relevant models and data used in the examples can be found in the supplementary file of the tutorial in CPT-PST (link will be available once the tutorial is published) The model for perjeta popPK simulation can also be found in the model library (PKcase_Perjeta_valid.cpp).  
+To demonstrate how to use the application, we have included a couple of use case examples that can help the user get started. All the demonstrations are based on the PK simulation of Perjeta (Pertuzumab), which is a monoclonal antibody for the treatment of HER2-positive metastatic breast cancer. The relevant models and data used in the examples can be found in the supplementary file of the tutorial in CPT-PST publication. The model for perjeta popPK simulation can also be found in the model library (PKcase_Perjeta_valid.cpp).  
 
 The demonstrations might based on a slightly older version than the published one, but the key steps stay the same.
 
